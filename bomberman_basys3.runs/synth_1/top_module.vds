@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 11 09:53:04 2022
+# Process ID: 2008
+# Current directory: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/top_module.vds
+# Journal file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
+Command: synth_design -top top_module -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23508 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 358.625 ; gain = 103.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_module' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:3]
+	Parameter X_WALL_L bound to: 48 - type: integer 
+	Parameter Y_WALL_U bound to: 32 - type: integer 
+	Parameter LEFT_WALL bound to: 49 - type: integer 
+	Parameter RIGHT_WALL bound to: 575 - type: integer 
+	Parameter TOP_WALL bound to: 33 - type: integer 
+	Parameter BOTTOM_WALL bound to: 463 - type: integer 
+	Parameter CD_U bound to: 2'b00 
+	Parameter CD_R bound to: 2'b01 
+	Parameter CD_D bound to: 2'b10 
+	Parameter CD_L bound to: 2'b11 
+INFO: [Synth 8-638] synthesizing module 'debounce_button' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/debounce_button.v:3]
+INFO: [Synth 8-256] done synthesizing module 'debounce_button' (1#1) [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/debounce_button.v:3]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+INFO: [Synth 8-638] synthesizing module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/.Xil/Vivado-2008-DESKTOP-CJI9H9H/realtime/pillar_dm_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'pillar_dm' (2#1) [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/.Xil/Vivado-2008-DESKTOP-CJI9H9H/realtime/pillar_dm_stub.v:6]
+ERROR: [Synth 8-448] named port connection 'x' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'y' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'x_a' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'y_a' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'clk' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'pillar_on' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+ERROR: [Synth 8-448] named port connection 'rgb_out' does not exist for instance 'pillar_disp_unit' of module 'pillar_dm' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:92]
+INFO: [Synth 8-638] synthesizing module 'bomberman_module' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v:1]
+	Parameter TIMER_MAX bound to: 1200000 - type: integer 
+	Parameter CD_U bound to: 2'b00 
+	Parameter CD_R bound to: 2'b01 
+	Parameter CD_D bound to: 2'b10 
+	Parameter CD_L bound to: 2'b11 
+	Parameter FRAME_CNT_1 bound to: 12500000 - type: integer 
+	Parameter FRAME_CNT_2 bound to: 25000000 - type: integer 
+	Parameter FRAME_CNT_3 bound to: 37500000 - type: integer 
+	Parameter FRAME_CNT_4 bound to: 50000000 - type: integer 
+	Parameter FRAME_REG_MAX bound to: 50000000 - type: integer 
+	Parameter BM_HB_OFFSET_9 bound to: 9 - type: integer 
+	Parameter BM_WIDTH bound to: 16 - type: integer 
+	Parameter BM_HEIGHT bound to: 25 - type: integer 
+	Parameter UP_LEFT_X bound to: 48 - type: integer 
+	Parameter UP_LEFT_Y bound to: 32 - type: integer 
+	Parameter LOW_RIGHT_X bound to: 561 - type: integer 
+	Parameter LOW_RIGHT_Y bound to: 439 - type: integer 
+	Parameter U_1 bound to: 0 - type: integer 
+	Parameter U_2 bound to: 25 - type: integer 
+	Parameter U_3 bound to: 50 - type: integer 
+	Parameter R_1 bound to: 75 - type: integer 
+	Parameter R_2 bound to: 100 - type: integer 
+	Parameter R_3 bound to: 125 - type: integer 
+	Parameter D_1 bound to: 150 - type: integer 
+	Parameter D_2 bound to: 175 - type: integer 
+	Parameter D_3 bound to: 200 - type: integer 
+	Parameter G_O bound to: 225 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v:201]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v:207]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v:213]
+INFO: [Synth 8-638] synthesizing module 'bm_sprite_br' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/.Xil/Vivado-2008-DESKTOP-CJI9H9H/realtime/bm_sprite_br_stub.v:6]
+ERROR: [Synth 8-285] failed synthesizing module 'bm_sprite_br' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/.Xil/Vivado-2008-DESKTOP-CJI9H9H/realtime/bm_sprite_br_stub.v:6]
+ERROR: [Synth 8-285] failed synthesizing module 'bomberman_module' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v:1]
+ERROR: [Synth 8-285] failed synthesizing module 'top_module' [C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 410.688 ; gain = 155.684
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 1 Warnings, 0 Critical Warnings and 11 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 11 09:53:16 2022...

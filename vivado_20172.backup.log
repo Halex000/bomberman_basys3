@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec  4 21:16:08 2022
+# Process ID: 20172
+# Current directory: C:/Users/hclip/Desktop/FPGA final project/bomberman_basys3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15252 C:\Users\hclip\Desktop\FPGA final project\bomberman_basys3\bomberman_basys3.xpr
+# Log file: C:/Users/hclip/Desktop/FPGA final project/bomberman_basys3/vivado.log
+# Journal file: C:/Users/hclip/Desktop/FPGA final project/bomberman_basys3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hclip/Desktop/FPGA final project/bomberman_basys3/bomberman_basys3.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_2017_4/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  4 21:17:10 2022...

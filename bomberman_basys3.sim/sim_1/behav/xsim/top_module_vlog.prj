@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../bomberman_basys3.srcs/sources_1/ip/enemy_sprite_br/sim/enemy_sprite_br.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/explosions_br_1/sim/explosions_br.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/bomb_dm/sim/bomb_dm.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/block_map/sim/block_map.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/block_dm/sim/block_dm.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/bm_sprite_br/sim/bm_sprite_br.v" \
+"../../../../bomberman_basys3.srcs/sources_1/ip/pillar_dm/sim/pillar_dm.v" \
+"../../../../bomberman_basys3.srcs/sources_1/new/LFSR_16_module.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/block_module.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/bomb_module.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/bomberman_module.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/debounce_button.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/enemy_module.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/pillar_display.v" \
+"../../../../bomberman_basys3.srcs/sources_1/new/vga_sync.v" \
+"../../../../../../bomberman_student/HDL_Incomplete/top_module.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

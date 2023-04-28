@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="bomb_dm_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1682706282">
+  <File Type="PA-TCL" Name="bomb_dm.tcl"/>
+  <File Type="REPORTS-TCL" Name="bomb_dm_reports.tcl"/>
+  <File Type="RDS-RDS" Name="bomb_dm.vds"/>
+  <File Type="RDS-UTIL" Name="bomb_dm_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="bomb_dm_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="bomb_dm.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bomb_dm">
+    <File Path="$PSRCDIR/sources_1/ip/bomb_dm/bomb_dm.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bomb_dm"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/bomb_dm">
+    <File Path="$PSRCDIR/sources_1/ip/bomb_dm/bomb_dm.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="bomb_dm"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

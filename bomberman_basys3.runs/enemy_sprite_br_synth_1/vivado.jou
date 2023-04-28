@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 11 09:48:39 2022
+# Process ID: 23900
+# Current directory: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/enemy_sprite_br_synth_1
+# Command line: vivado.exe -log enemy_sprite_br.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source enemy_sprite_br.tcl
+# Log file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/enemy_sprite_br_synth_1/enemy_sprite_br.vds
+# Journal file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/enemy_sprite_br_synth_1\vivado.jou
+#-----------------------------------------------------------
+source enemy_sprite_br.tcl -notrace

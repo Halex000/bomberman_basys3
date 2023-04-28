@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Apr 28 14:24:12 2023
+# Process ID: 11760
+# Current directory: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent896 C:\everything\college\UCF stuff\Year 5 term 1\FPGA Design Labs\FPGA final project\vivado projects\bomberman_basys3\bomberman_basys3.xpr
+# Log file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/vivado.log
+# Journal file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3\vivado.jou
+# Running On: DESKTOP-CJI9H9H, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 6, Host memory: 17091 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1

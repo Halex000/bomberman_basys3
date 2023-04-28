@@ -1,0 +1,174 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Dec 11 09:37:20 2022
+# Process ID: 644
+# Current directory: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16152 C:\everything\college\UCF stuff\Year 5 term 1\FPGA Design Labs\FPGA final project\vivado projects\bomberman_basys3\bomberman_basys3.xpr
+# Log file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/vivado.log
+# Journal file: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3'
+INFO: [Project 1-313] Project file moved from 'C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/block_module.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/block_module.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomb_module.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomb_module.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomberman_module.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomberman_module.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/debounce_button.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/debounce_button.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/enemy_module.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/enemy_module.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/game_lives.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/game_lives.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/numbers_rom.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/numbers_rom.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/pillar_display.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/pillar_display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/score_display.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/score_display.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/top_module.v', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/top_module.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/pillar.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/pillar.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomberman_sprites_10.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/bomberman_sprites_10.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block_map.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/block_map.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/block.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomb.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/bomb.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/explosions.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/explosions.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/enemy_sprites.coe', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/graphics/enemy_sprites.coe'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/basys3.xdc', nor could it be found using path 'C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/basys3.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx_2017_4/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 783.016 ; gain = 68.680
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/block_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/enemy_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/debounce_button.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/game_lives.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomb_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/pillar_display.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/top_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/numbers_rom.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/score_display.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/bomberman_module.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/block_module.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomb_module.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomberman_module.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/debounce_button.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/enemy_module.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/game_lives.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/numbers_rom.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/pillar_display.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/score_display.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/top_module.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/block_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomb_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/bomberman_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/debounce_button.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/enemy_module.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/game_lives.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/numbers_rom.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/pillar_display.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/score_display.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/top_module.v}}
+reset_run synth_1
+reset_run pillar_dm_synth_1
+reset_run bm_sprite_br_synth_1
+reset_run block_map_synth_1
+reset_run block_dm_synth_1
+reset_run bomb_dm_synth_1
+reset_run explosions_br_synth_1
+reset_run enemy_sprite_br_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pillar_dm'...
+ERROR: [Ipptcl 7-519] NULL COE Data pointer: Unable to open the file 
+ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+CRITICAL WARNING: [IP_Flow 19-1747] Failed to deliver file 'c:/Xilinx_2017_4/Vivado/2017.4/data/ip/xilinx/blk_mem_gen_v8_4/hdl/mem_init_file.xit': ERROR: [Common 17-39] 'ipgui::get_coe_val' failed due to earlier errors.
+
+ERROR: [IP_Flow 19-167] Failed to deliver one or more file(s).
+ERROR: [IP_Flow 19-3505] IP Generation error: Failed to generate IP 'pillar_dm'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+ERROR: [IP_Flow 19-98] Generation of the IP CORE failed.
+Failed to generate IP 'pillar_dm'. Failed to generate 'Vivado VHDL Synthesis' outputs: 
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/pillar_display.v}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block_map.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomb.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomberman_sprites_10.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/enemy_sprites.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/explosions.coe}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/pillar.coe}}] -no_script -reset -force -quiet
+remove_files  {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/pillar_display.v} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/block_map.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomb.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/bomberman_sprites_10.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/enemy_sprites.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/explosions.coe} {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/graphics/pillar.coe}}
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name pillar_dm1 -dir {c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip}
+set_property -dict [list CONFIG.Component_Name {pillar_dm1} CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {256} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe} CONFIG.Port_A_Write_Rate {0}] [get_ips pillar_dm1]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'pillar_dm1' to 'pillar_dm1' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/pillar.coe'
+generate_target {instantiation_template} [get_files {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pillar_dm1'...
+generate_target all [get_files  {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pillar_dm1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pillar_dm1'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'pillar_dm1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pillar_dm1'...
+catch { config_ip_cache -export [get_ips -all pillar_dm1] }
+export_ip_user_files -of_objects [get_files {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}]
+launch_runs -jobs 6 pillar_dm1_synth_1
+[Sun Dec 11 09:42:07 2022] Launched pillar_dm1_synth_1...
+Run output will be captured here: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/pillar_dm1_synth_1/runme.log
+export_simulation -of_objects [get_files {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}] -directory {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files} -ipstatic_source_dir {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/modelsim} {questa=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/questa} {riviera=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/riviera} {activehdl=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+export_ip_user_files -of_objects  [get_files {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe}}] -no_script -reset -force -quiet
+remove_files  {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe}}
+export_ip_user_files -of_objects  [get_files {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}] -no_script -reset -force -quiet
+remove_files  -fileset pillar_dm1 {{c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci}}
+INFO: [Project 1-386] Moving file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm1/pillar_dm1.xci' from fileset 'pillar_dm1' to fileset 'sources_1'.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe}] [get_ips pillar_dm]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/pillar.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/pillar.coe'
+generate_target all [get_files  {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm/pillar_dm.xci}}]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pillar_dm'...
+catch { config_ip_cache -export [get_ips -all pillar_dm] }
+export_ip_user_files -of_objects [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm/pillar_dm.xci}}] -no_script -sync -force -quiet
+launch_runs -jobs 6 pillar_dm_synth_1
+[Sun Dec 11 09:43:34 2022] Launched pillar_dm_synth_1...
+Run output will be captured here: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/pillar_dm_synth_1/runme.log
+export_simulation -of_objects [get_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm/pillar_dm.xci}}] -directory {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files/sim_scripts} -ip_user_files_dir {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files} -ipstatic_source_dir {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/modelsim} {questa=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/questa} {riviera=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/riviera} {activehdl=C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/bomberman_sprites_10.coe}] [get_ips bm_sprite_br]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/bomberman_sprites_10.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/bomberman_sprites_10.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/block.coe}] [get_ips block_dm]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/block.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/block.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/block_map.coe}] [get_ips block_map]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/block_map.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/block_map.coe'
+set_property -dict [list CONFIG.coefficient_file {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/bomb.coe}] [get_ips bomb_dm]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/bomb.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/bomb.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/explosions.coe}] [get_ips explosions_br]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/explosions.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/explosions.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/explosions.coe}] [get_ips explosions_br]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/explosions.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/explosions.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/enemy_sprites.coe}] [get_ips enemy_sprite_br]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/coe files/enemy_sprites.coe' provided. It will be converted relative to IP Instance files '../../../../../../coe files/enemy_sprites.coe'
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Dec 11 09:48:37 2022] Launched bm_sprite_br_synth_1, block_map_synth_1, block_dm_synth_1, bomb_dm_synth_1, explosions_br_synth_1, enemy_sprite_br_synth_1, synth_1...
+Run output will be captured here:
+bm_sprite_br_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/bm_sprite_br_synth_1/runme.log
+block_map_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/block_map_synth_1/runme.log
+block_dm_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/block_dm_synth_1/runme.log
+bomb_dm_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/bomb_dm_synth_1/runme.log
+explosions_br_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/explosions_br_synth_1/runme.log
+enemy_sprite_br_synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/enemy_sprite_br_synth_1/runme.log
+synth_1: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/runme.log
+[Sun Dec 11 09:48:37 2022] Launched impl_1...
+Run output will be captured here: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1259.961 ; gain = 0.000
+update_files -from_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/basys3.xdc}} -to_files {{C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/basys3.xdc}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman_student/HDL_Incomplete/basys3.xdc' with file 'C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/bomberman verilog sources/basys3.xdc'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Sun Dec 11 09:53:03 2022] Launched synth_1...
+Run output will be captured here: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1/runme.log
+[Sun Dec 11 09:53:03 2022] Launched impl_1...
+Run output will be captured here: C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 11 09:53:55 2022...

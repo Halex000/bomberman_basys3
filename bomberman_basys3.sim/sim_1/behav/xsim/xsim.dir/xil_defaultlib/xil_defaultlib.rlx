@@ -1,0 +1,21 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/block_dm/sim/block_dm.v,1669978388,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/bm_sprite_br/sim/bm_sprite_br.v,,block_dm,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/block_map/sim/block_map.v,1669977958,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/block_dm/sim/block_dm.v,,block_map,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/bm_sprite_br/sim/bm_sprite_br.v,1669969056,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm/sim/pillar_dm.v,,bm_sprite_br,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/bomb_dm/sim/bomb_dm.v,1669979347,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/block_map/sim/block_map.v,,bomb_dm,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/enemy_sprite_br/sim/enemy_sprite_br.v,1670027901,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/explosions_br_1/sim/explosions_br.v,,enemy_sprite_br,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/explosions_br_1/sim/explosions_br.v,1669983914,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/bomb_dm/sim/bomb_dm.v,,explosions_br,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/ip/pillar_dm/sim/pillar_dm.v,1669965907,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/new/LFSR_16_module.v,,pillar_dm,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/new/LFSR_16_module.v,1670030240,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/block_module.v,,LFSR_16_module,,,,,,,,
+C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/new/vga_sync.v,1669952275,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/top_module.v,,vga_sync,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/block_module.v,1669946786,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomb_module.v,,block_module,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomb_module.v,1669984798,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomberman_module.v,,bomb_module,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/bomberman_module.v,1669974472,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/debounce_button.v,,bomberman_module,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/debounce_button.v,1669946786,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/enemy_module.v,,debounce_button,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/enemy_module.v,1670046558,verilog,,C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/pillar_display.v,,enemy_module,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/pillar_display.v,1669967444,verilog,,C:/Users/hclip/Desktop/FPGA Design Labs/bomberman_basys3/bomberman_basys3.srcs/sources_1/new/vga_sync.v,,pillar_display,,,,,,,,
+C:/Users/hclip/Desktop/bomberman_student/HDL_Incomplete/top_module.v,1670027720,verilog,,,,top_module,,,,,,,,

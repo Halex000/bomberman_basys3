@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="bm_sprite_br_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/bm_sprite_br_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="block_map_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/block_map_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="block_dm_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/block_dm_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bomb_dm_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/bomb_dm_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="explosions_br_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/explosions_br_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="enemy_sprite_br_synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/enemy_sprite_br_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="bm_sprite_br_synth_1"/>
+		<Parent Id="block_map_synth_1"/>
+		<Parent Id="block_dm_synth_1"/>
+		<Parent Id="bomb_dm_synth_1"/>
+		<Parent Id="explosions_br_synth_1"/>
+		<Parent Id="enemy_sprite_br_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/everything/college/UCF stuff/Year 5 term 1/FPGA Design Labs/FPGA final project/vivado projects/bomberman_basys3/bomberman_basys3.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="bm_sprite_br_synth_1"/>
+		<Parent Id="block_map_synth_1"/>
+		<Parent Id="block_dm_synth_1"/>
+		<Parent Id="bomb_dm_synth_1"/>
+		<Parent Id="explosions_br_synth_1"/>
+		<Parent Id="enemy_sprite_br_synth_1"/>
+	</Run>
+</Runs>
+
